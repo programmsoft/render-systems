@@ -41,7 +41,7 @@ export const PolicyPage: React.FC = () => (
         If you have any questions about this Privacy Policy, please contact us:
       </p>
       <p className="mb-4">
-        Email: privacy@rendersystems.com
+        Email: softtechmobile007@gmail.com
         <br />
         Phone: +998 90 909 88 28
         <br />
