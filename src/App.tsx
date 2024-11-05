@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { Navigation } from "./components/Navigation";
 import { HomePage } from "./pages/Home";
 import { PolicyPage } from "./pages/Policy";
@@ -7,6 +7,7 @@ import { Footer } from "./components/Footer";
 const App: React.FC = () => {
   return (
     <Router>
+      {/* This will now use hash-based routing */}
       <div className="min-h-screen bg-gray-50">
         <Navigation />
         <Routes>
@@ -18,5 +19,4 @@ const App: React.FC = () => {
     </Router>
   );
 };
-
 export default App;
