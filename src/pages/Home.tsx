@@ -25,19 +25,19 @@ export const HomePage: React.FC = () => (
         <h2 className="text-3xl font-bold mb-12 text-center">Our Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectCard
-            title="Mobile Banking App"
+            title="Hikmat va Hayot"
             description="Secure and user-friendly mobile banking solution with advanced features."
             imagePath="/hikmat-va-hayot.png"
             link="https://play.google.com/store/apps/details?id=com.programmsoft.odampsihalogiyasi&pcampaignid=web_share"
           />
           <ProjectCard
-            title="E-commerce Platform"
+            title="Better Not To Do It"
             description="Scalable e-commerce platform with integrated payment systems."
             imagePath="/better-not-to-do.png"
             link="https://play.google.com/store/apps/details?id=com.softtech.betternottodoit&pcampaignid=web_share"
           />
           <ProjectCard
-            title="Healthcare Management"
+            title="O'zbekcha anekdotlar"
             description="Comprehensive healthcare management system for clinics."
             imagePath="/anekdotlar.png"
             link="https://play.google.com/store/apps/details?id=com.programmsoft.uzbekanekdotlari&pcampaignid=web_share"
